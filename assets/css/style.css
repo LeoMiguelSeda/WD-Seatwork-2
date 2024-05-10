@@ -1,0 +1,85 @@
+* {
+    margin:0%;
+    padding:0%;
+}
+
+/* Dev */
+
+header,
+header * {
+    outline: 1px blue dashed;
+}
+
+section.hero,
+section.hero * {
+    outline: 1px red dashed;
+}
+
+/* Prod */
+
+body {
+    background-color: white;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+header button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: black 4px 4px;
+    transition: .2s ease-out;
+    transform: translate(4px 4px);
+    background: transparent;
+    border: 1px; transparent solid;
+
+    &:hover {
+        border: 1px black solid;
+        box-shadow: black 0 0;
+    }
+
+    
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    
+    & div{
+        padding-top: 5vh;
+        width: 50%;
+    }
+}
+
+.hero .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & button {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        appearance: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        box-sizing: border-box;
+        cursor: pointer;
+        overflow: hidden;
+        background-image: radial-gradient(100% 100% a[ 100% 0, #5adaff 0, #5468ff 100%]);
+    }
+}
