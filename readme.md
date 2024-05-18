@@ -111,4 +111,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| How To Make About Me Page Section Using HTML & CSS | how to make a border for picture | https://www.youtube.com/watch?v=AVETaOkQD88&ab_channel=LearnWeb |
+| Modern CSS Glowing Button Hover Effects| how to make a button animation | https://www.youtube.com/watch?v=xnltEHWWjiM&ab_channel=OnlineTutorials |
